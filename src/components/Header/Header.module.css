@@ -1,0 +1,48 @@
+.header {
+margin-top: 50px;
+/* display:inline-block; */
+}
+
+.headerWrapper {
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo > span {
+  font-family: var(--main-font);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.logo > .phone {
+ color: #1976D2;
+}
+
+.logo>.book {
+  color: var(--main-font-color);
+}
+
+.registration :not(:last-child) {
+ margin-right: 33px;
+}
+
+.registration>a {
+font-family: var(--main-font);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.167;
+  color: var(--main-font-color);
+}

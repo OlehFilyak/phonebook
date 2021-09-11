@@ -1,0 +1,51 @@
+.offerHeader {
+ 
+  font-size: 40px;
+  line-height: 1.33;
+  color: var(--main-font-color);
+}
+
+.offerHeader>span {
+  color: var(--accent-color);
+  display: block;
+}
+
+.offerHeader,
+.offerParagraph {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.offerParagraph {
+  font-size: 22px;
+  line-height: 1.33;
+  color: var(--secondary-font-color);
+}
+
+.offerButton {
+  height: 44px;
+  border-radius: 4px;
+  padding: 8px 22px;
+  background-color: var(--accent-color);
+  border-color: transparent;
+
+    color: var(--third-font-color);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.87;
+    letter-spacing: 0.0125em;
+    text-transform: uppercase;
+}
+
+.offerContainer {
+  padding-left: 100px;
+}
+
+.offerContainer :not(:last-child) {
+   margin-bottom: 43px;
+}
+
+
+
+
