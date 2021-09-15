@@ -3,6 +3,10 @@ import { Route, Switch } from 'react-router-dom';
 import Container from './components/Container';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
+import ContactsPage from './pages/ContactsPage';
+import LogInPage from './pages/LogInPage';
+import SignUpPage from './pages/SignUpPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 import './App.css';
 
@@ -17,20 +21,20 @@ function App() {
             <HomePage />
           </Route>
 
-          <Route path="/" exact>
-            <HomePage />
+          <Route path="/contacts" exact>
+            <ContactsPage />
           </Route>
 
-          <Route path="/" exact>
-            <HomePage />
+          <Route path="/login" exact>
+            <LogInPage />
           </Route>
 
-          <Route path="/" exact>
-            <HomePage />
+          <Route path="/signup" exact>
+            <SignUpPage />
           </Route>
 
-          <Route path="/" exact>
-            <HomePage />
+          <Route>
+            <NotFoundPage />
           </Route>
         </Switch>
       </Container>

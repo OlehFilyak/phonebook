@@ -1,0 +1,140 @@
+.pageWrapper {
+display: flex;
+margin-top: 174px;
+justify-content:center;
+}
+
+.LoginOfferContainer {
+ margin-right: 17px;
+ margin-top: 80px;
+}
+.LoginMainHeader {
+
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 64px;
+line-height: 1.281;
+letter-spacing: 0.1em;
+color: var(--main-font-color);
+/* padding:20px; */
+}
+
+.LoginMainHeader>span {
+  color: var(--accent-color);
+}
+
+.LoginOffer {
+font-family: var(--main-font);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.272;
+color:var(--secondary-font-color);
+}
+
+.LoginFormContainer {
+width: 395px;
+height: 350px;
+padding: 0 15px;
+
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+border: 1px solid var(--border-form-color);
+border-radius: var(--border-radius);
+box-shadow: var(--box-shadow);
+background-color: var(--form-background-color);
+;
+
+}
+
+.LoginPassword, 
+.LoginEmail {
+  margin-top: 12px;
+}
+
+.LoginEmail,
+.LoginPassword {
+width: 365px;
+height: 51px;
+padding: 9px 16px;
+
+border: 2px solid var(--input-border-color);
+border-radius: var(--border-radius);
+}
+
+.LoginEmail::placeholder, 
+.LoginPassword::placeholder {
+
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.29;
+
+  color: var(--main-font-color);
+
+}
+
+.LoginBtnSubmit {
+
+width: 365px;
+height: 44px;
+margin-top: 20px;
+/* padding: 8px 90px; */
+background-color: var(--accent-color);
+background: #1976D2;
+
+box-shadow: var(--box-shadow);
+border-radius: var(--border-radius);
+border-color: transparent;
+
+
+
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 15px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.0125em;
+text-transform: uppercase;
+
+color: var(--third-font-color);
+}
+
+.ForgotPassword {
+margin-top: 20px;
+
+font-family: var(--accent-color);
+font-weight: 400;
+font-size: 18px;
+line-height: 1.78;
+}
+
+.hr{
+  margin-top: 20px;
+  border-top: 1px solid var(--input-border-color);
+  width: 365px;
+}
+
+.LoginBtnSignUp {
+width: 211px;
+height: 44px;
+margin-top: 20px;
+
+background: var(--primary-color);
+box-shadow: 0px 0px 4px rgba(220, 0, 78, 0.15),
+0px 0px 8px rgba(220, 0, 78, 0.15);
+border-radius: var(--border-radius);
+border-color: transparent;
+
+
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 15px;
+line-height: 1.87;
+letter-spacing: 0.0125em;
+text-transform: uppercase;
+
+color: var(--third-font-color);
+}

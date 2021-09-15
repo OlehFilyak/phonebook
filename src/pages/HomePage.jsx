@@ -11,7 +11,7 @@ function HomePage() {
     <div className={css.HomePagewrapper}>
       <div className={css.offerContainer}>
         <Offer />
-        <img src={MainImg} alt="friends" />
+        <img src={MainImg} alt="friends" width="750px" />
       </div>
     </div>
   );

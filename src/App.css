@@ -14,10 +14,26 @@
   'Droid Sans',
   sans-serif;
   --secondary-font: "Raleway", sans-serif;
+
   --accent-color: #1976D2;
+  --primary-color: #DC004E;
   --main-font-color: #202124;
   --secondary-font-color: rgba(32, 33, 36, 0.7);
   --third-font-color: #fff;
+  --border-form-color: rgba(154, 157, 161, 0.33);
+  --border-radius: 4px;
+  --box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25), 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  --box-shadow-accent: 0 0 4px 0 rgba(25, 118, 210, 0.15),
+  0 0 8px 0 rgba(25, 118, 210, 0.15);
+  --form-background-color: rgba(227, 228, 229, 0.09);
+  --input-border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
